@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Env (密钥不入仓)
+.env
+
+# 回归/测试产物（数据列由回归写入，不入仓）
+regression_test_cases.csv
+test_cases.csv.backup
+test_cases.csv.backup_multiturn
+test_cases.csv.before_multiturn
+
+# 日志
+*.log
+/tmp/regression_run*.log
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
